@@ -12,6 +12,8 @@
 		52A444AB1FD1C05000538A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A444A91FD1C05000538A11 /* Main.storyboard */; };
 		52A444AD1FD1C05000538A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A444AC1FD1C05000538A11 /* Assets.xcassets */; };
 		52A444B01FD1C05000538A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A444AE1FD1C05000538A11 /* LaunchScreen.storyboard */; };
+		52A444B81FD1C06700538A11 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 52A444B71FD1C06700538A11 /* MNIST.mlmodel */; };
+		52A444BA1FD1C06F00538A11 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A444B91FD1C06F00538A11 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		52A444AC1FD1C05000538A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A444AF1FD1C05000538A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A444B11FD1C05000538A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A444B71FD1C06700538A11 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		52A444B91FD1C06F00538A11 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		52A444A41FD1C05000538A11 /* MNISTHandwritingRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				52A444B71FD1C06700538A11 /* MNIST.mlmodel */,
+				52A444B91FD1C06F00538A11 /* CanvasView.swift */,
 				52A444A51FD1C05000538A11 /* AppDelegate.swift */,
 				52A444A71FD1C05000538A11 /* ViewController.swift */,
 				52A444A91FD1C05000538A11 /* Main.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A444B81FD1C06700538A11 /* MNIST.mlmodel in Sources */,
 				52A444A81FD1C05000538A11 /* ViewController.swift in Sources */,
+				52A444BA1FD1C06F00538A11 /* CanvasView.swift in Sources */,
 				52A444A61FD1C05000538A11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
